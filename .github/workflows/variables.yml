@@ -1,8 +1,7 @@
 name: Workflow Demo
 
 on: 
-  schedule:
-    - cron: "*/1 * * * *"
+  workflow_dispatch:
     
 #  push
 
